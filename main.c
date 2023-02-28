@@ -14,7 +14,7 @@ int main() {
 void pfibo(int n)
 {
     static a=0,b=1,c;
-    if(n!=0)
+    if(n!=2)
     {
         pfibo(n-1);
         c=a+b;
